@@ -7,5 +7,6 @@ Users can click on the Giphy and animate if they wish. They can click again to s
 # Technology used
 
 * JavaScript
+* JQuery
 * HTML
 * Bootstrap
