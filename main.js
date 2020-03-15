@@ -89,7 +89,7 @@ $(document).on("click", ".gif-button", function () {
 
                 searchTheGif.appendTo("#gifs")
 
-                $("<div>").html("BITLY URL: " + BITurl + "<br> <hr> <br>").appendTo("#gifs")
+                $("<div>").html("<br>BITLY URL: " + BITurl + "<br> <hr> <br>").appendTo("#gifs")
 
             }
         });

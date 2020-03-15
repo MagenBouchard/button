@@ -31,3 +31,7 @@ input {
     font-size: 35px;
     border-style: grey dashed;
 }
+
+#gifs{
+    margin: 50px;
+}
