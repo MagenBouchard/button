@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    let thePuppy = ["Cute puppy", "Happy puppy", "Sad puppy", "Silly Puppy"]
+    let thePuppy = ["Cute", "Happy", "Funny", "Fast"]
 
 
     for (let i = 0; i < thePuppy.length; i++) {
@@ -60,7 +60,7 @@ $(document).on("click", ".gif-button", function () {
     $("#gifs").empty();
     let gif = $(this).attr("data");
 
-    const queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=10"
+    const queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "dog&api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&limit=10"
 
     $.ajax({
         url: queryURL,
