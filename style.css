@@ -25,3 +25,9 @@ button {
     border-style: dashed;
 }
 
+input {
+    height: 50px;
+    width: 300px;
+    font-size: 35px;
+    border-style: dashed;
+}
