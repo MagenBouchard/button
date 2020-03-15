@@ -1,4 +1,4 @@
-# button search
+# Button Search
 
 This application allows users to create their own search buttons using the giphy API.
 
