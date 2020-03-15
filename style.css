@@ -1,6 +1,6 @@
 body {
     align-content: center;
-    color:black;
+  
     padding: 20px;
     margin: 10px;
 }
@@ -29,5 +29,5 @@ input {
     height: 50px;
     width: 300px;
     font-size: 35px;
-    border-style: dashed;
+    border-style: grey dashed;
 }
